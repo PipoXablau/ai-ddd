@@ -10,7 +10,7 @@ export class CreateCriterionDto {
     })
     name: string;
 
-    @IsNumber()
+    @IsNumber() //aaaa
     @IsNotEmpty()
     @ApiProperty({
         description: 'The title of the scenario',
