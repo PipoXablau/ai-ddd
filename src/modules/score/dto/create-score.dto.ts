@@ -16,5 +16,5 @@ export class CreateScoreDto {
         description: 'The title of the scenario',
         example: 'Choose the best programming language'
     })
-    criterionId: string;
+    criterionId: string; //commit
 }
